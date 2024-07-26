@@ -1,0 +1,682 @@
+[06-Jan-2017 02:15:51 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:390
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(207): DbHandler->getAllPosts('ghh')
+#1 [internal function]: {closure}('ghh')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main}
+   in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 390
+[06-Jan-2017 02:16:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:390
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(207): DbHandler->getAllPosts('ghh')
+#1 [internal function]: {closure}('ghh')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main}
+   in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 390
+[06-Jan-2017 02:19:10 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:390
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(207): DbHandler->getAllPosts('ghh')
+#1 [internal function]: {closure}('ghh')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main}
+   in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 390
+[06-Jan-2017 02:27:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:390
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(207): DbHandler->getAllPosts('ghh')
+#1 [internal function]: {closure}('ghh')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main}
+   in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 390
+[06-Jan-2017 02:40:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/ahsanaasim/public_html/helpclick/v1/index.php:213
+Stack trace:
+#0 [internal function]: {closure}('ghh')
+#1 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#7 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#8 {main}
+  thrown in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 213
+[06-Jan-2017 04:11:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:372
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(277): DbHandler->getAllUserPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 372
+[06-Jan-2017 04:11:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:433
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(243): DbHandler->getAllNotices('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main}
+ in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 433
+[06-Jan-2017 04:13:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:433
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(243): DbHandler->getAllNotices('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main}
+ in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 433
+[06-Jan-2017 04:14:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:372
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(277): DbHandler->getAllUserPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 372
+[06-Jan-2017 04:14:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:433
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(243): DbHandler->getAllNotices('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main}
+ in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 433
+[06-Jan-2017 04:14:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:433
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(243): DbHandler->getAllNotices('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main}
+ in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 433
+[06-Jan-2017 04:14:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:372
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(277): DbHandler->getAllUserPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 372
+[06-Jan-2017 04:14:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:372
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(277): DbHandler->getAllUserPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 372
+[06-Jan-2017 04:14:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:415
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(309): DbHandler->getAllUserNots('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main} in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 415
+[06-Jan-2017 04:14:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:415
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(309): DbHandler->getAllUserNots('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main} in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 415
+[06-Jan-2017 04:14:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:372
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(277): DbHandler->getAllUserPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 372
+[06-Jan-2017 04:14:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:433
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(243): DbHandler->getAllNotices('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main}
+ in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 433
+[06-Jan-2017 04:14:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:415
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(309): DbHandler->getAllUserNots('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main} in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 415
+[06-Jan-2017 04:14:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:372
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(277): DbHandler->getAllUserPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 372
+[06-Jan-2017 04:14:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:415
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(309): DbHandler->getAllUserNots('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main} in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 415
+[06-Jan-2017 04:14:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:433
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(243): DbHandler->getAllNotices('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main}
+ in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 433
+[06-Jan-2017 04:14:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:415
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(309): DbHandler->getAllUserNots('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main} in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 415
+[06-Jan-2017 04:17:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:433
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(243): DbHandler->getAllNotices('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main}
+ in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 433
+[06-Jan-2017 04:17:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:372
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(277): DbHandler->getAllUserPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 372
+[06-Jan-2017 04:17:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:372
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(277): DbHandler->getAllUserPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 372
+[06-Jan-2017 04:17:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:415
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(309): DbHandler->getAllUserNots('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main} in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 415
+[06-Jan-2017 04:17:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:433
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(243): DbHandler->getAllNotices('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main}
+ in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 433
+[06-Jan-2017 04:17:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:433
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(243): DbHandler->getAllNotices('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main}
+ in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 433
+[06-Jan-2017 06:01:15 America/Chicago] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 3
+[06-Jan-2017 06:01:15 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 3
+[06-Jan-2017 06:01:23 America/Chicago] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 3
+[06-Jan-2017 06:01:23 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 3
+[06-Jan-2017 06:28:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:372
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(277): DbHandler->getAllUserPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 372
+[06-Jan-2017 06:28:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/ahsanaasim/public_html/helpclick/v1/index.php:283
+Stack trace:
+#0 [internal function]: {closure}('tyt')
+#1 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#7 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#8 {main}
+  thrown in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 283
+[06-Jan-2017 06:29:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/ahsanaasim/public_html/helpclick/v1/index.php:283
+Stack trace:
+#0 [internal function]: {closure}('1')
+#1 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#7 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#8 {main}
+  thrown in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 283
+[06-Jan-2017 06:29:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:392
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(144): DbHandler->getAllUserPostsfull('1')
+#1 [internal function]: {closure}('1')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 392
+[06-Jan-2017 06:29:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/ahsanaasim/public_html/helpclick/v1/index.php:250
+Stack trace:
+#0 [internal function]: {closure}('1')
+#1 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#7 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#8 {main}
+  thrown in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 250
+[06-Jan-2017 06:32:52 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/ahsanaasim/public_html/helpclick/v1/index.php:250
+Stack trace:
+#0 [internal function]: {closure}('1')
+#1 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#7 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#8 {main}
+  thrown in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 250
+[06-Jan-2017 06:48:45 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 374
+[06-Jan-2017 06:53:49 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:372
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(279): DbHandler->getAllUserPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(662): Slim\Slim->run()
+#9 {main}
+   in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 372
+[06-Jan-2017 06:56:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:372
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(279): DbHandler->getAllUserPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(662): Slim\Slim->run()
+#9 {main}
+   in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 372
+[06-Jan-2017 07:22:43 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 368
+[06-Jan-2017 07:23:15 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 368
+[06-Jan-2017 07:23:53 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 368
+[06-Jan-2017 07:24:07 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 368
+[06-Jan-2017 07:37:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:370
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(279): DbHandler->getAllUserPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(662): Slim\Slim->run()
+#9 {main} in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 370
+[06-Jan-2017 08:02:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:372
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(272): DbHandler->getAllUserPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 372
+[06-Jan-2017 08:02:09 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:390
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(207): DbHandler->getAllPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main}
+   in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 390
+[06-Jan-2017 08:02:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:372
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(272): DbHandler->getAllUserPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 372
+[06-Jan-2017 08:06:09 America/Chicago] PHP Fatal error:  Only variables can be passed by reference in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 370
+[06-Jan-2017 08:08:55 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:372
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(279): DbHandler->getAllUserPosts('tyt')
+#1 [internal function]: {closure}('tyt')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(662): Slim\Slim->run()
+#9 {main}
+   in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 372
+[06-Jan-2017 09:09:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:522
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(341): DbHandler->getAllIncidentComments('1')
+#1 [internal function]: {closure}('1')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(665): Slim\Slim->run()
+#9 {m in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 522
+[06-Jan-2017 09:10:21 America/Chicago] PHP Fatal error:  Cannot use temporary expression in write context in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 345
+[06-Jan-2017 09:12:31 America/Chicago] PHP Fatal error:  Cannot use temporary expression in write context in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 345
+[06-Jan-2017 09:14:23 America/Chicago] PHP Fatal error:  Cannot use temporary expression in write context in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 345
+[06-Jan-2017 09:15:38 America/Chicago] PHP Fatal error:  Cannot use temporary expression in write context in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 345
+[06-Jan-2017 09:16:06 America/Chicago] PHP Fatal error:  Cannot use temporary expression in write context in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 345
+[06-Jan-2017 09:17:34 America/Chicago] PHP Fatal error:  Cannot use temporary expression in write context in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 345
+[08-Jan-2017 09:32:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:583
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(591): DbHandler->deletePost('1')
+#1 [internal function]: {closure}('1')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(685): Slim\Slim->run()
+#9 {main}
+  thrown in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 583
+[08-Jan-2017 09:33:49 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:583
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(591): DbHandler->deletePost('1')
+#1 [internal function]: {closure}('1')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(685): Slim\Slim->run()
+#9 {main}
+  thrown in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 583
+[09-Jan-2017 08:23:24 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting '(' in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 73
+[09-Jan-2017 08:33:05 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 106
+[09-Jan-2017 08:34:51 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 106
+[09-Jan-2017 08:35:15 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 106
+[09-Jan-2017 08:36:00 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 106
+[09-Jan-2017 08:36:45 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 106
+[09-Jan-2017 08:41:33 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:41:58 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:42:22 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:42:38 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:42:56 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:43:06 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:43:22 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:43:26 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:45:28 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:45:53 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:46:06 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:46:53 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:47:49 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:47:54 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:48:48 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:49:42 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:51:28 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:51:46 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:51:47 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:51:48 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:58:37 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:58:54 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 08:59:10 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 107
+[09-Jan-2017 09:11:26 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 108
+[09-Jan-2017 09:12:00 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 108
+[09-Jan-2017 09:12:03 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 108
+[09-Jan-2017 09:12:23 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 108
+[09-Jan-2017 09:13:36 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 108
+[09-Jan-2017 09:15:48 America/Chicago] PHP Parse error:  syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 108
+[09-Jan-2017 09:17:37 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:390
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(207): DbHandler->getAllPosts('ghh')
+#1 [internal function]: {closure}('ghh')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(659): Slim\Slim->run()
+#9 {main}
+   in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 390
+[14-Jan-2017 23:13:52 America/Chicago] PHP Warning:  Unknown: POST data can't be buffered; all data discarded in Unknown on line 0
+[14-Jan-2017 23:14:00 America/Chicago] PHP Warning:  Unknown: POST data can't be buffered; all data discarded in Unknown on line 0
+[14-Jan-2017 23:14:17 America/[23-Feb-2017 10:39:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'CHARACTER' (T_STRING), expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbConnect.php on line 25
+[23-Feb-2017 10:40:28 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ahsanaasim/public_html/helpclick/include/DbConnect.php on line 25
+[23-Feb-2017 11:32:34 America/Chicago] PHP Parse error:  syntax error, unexpected 'CHARACTER' (T_STRING), expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbConnect.php on line 25
+[23-Feb-2017 11:33:00 America/Chicago] PHP Parse error:  syntax error, unexpected 'CHARACTER' (T_STRING), expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbConnect.php on line 25
+[23-Feb-2017 11:39:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'CHARACTER' (T_STRING), expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbConnect.php on line 25
+[23-Feb-2017 11:39:54 America/Chicago] PHP Parse error:  syntax error, unexpected 'CHARACTER' (T_STRING), expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbConnect.php on line 25
+[23-Feb-2017 11:39:54 America/Chicago] PHP Parse error:  syntax error, unexpected 'CHARACTER' (T_STRING), expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbConnect.php on line 25
+[23-Feb-2017 11:39:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'CHARACTER' (T_STRING), expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbConnect.php on line 25
+[23-Feb-2017 11:39:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'CHARACTER' (T_STRING), expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbConnect.php on line 25
+[23-Feb-2017 11:39:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'CHARACTER' (T_STRING), expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbConnect.php on line 25
+[23-Feb-2017 11:39:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'CHARACTER' (T_STRING), expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbConnect.php on line 25
+[23-Feb-2017 11:39:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'CHARACTER' (T_STRING), expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbConnect.php on line 25
+[23-Feb-2017 11:39:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'CHARACTER' (T_STRING), expecting ',' or ')' in /home/ahsanaasim/public_html/helpclick/include/DbConnect.php on line 25
+[23-Feb-2017 11:41:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::query() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:481
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(245): DbHandler->getAllNotices('smajid0210')
+#1 [internal function]: {closure}('smajid0210')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(693): Slim\Slim->run()
+# in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 481
+[23-Feb-2017 11:50:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::query() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:481
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(245): DbHandler->getAllNotices('smajid0210')
+#1 [internal function]: {closure}('smajid0210')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(693): Slim\Slim->run()
+# in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 481
+[23-Feb-2017 11:54:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::query() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:481
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(245): DbHandler->getAllNotices('rownok')
+#1 [internal function]: {closure}('rownok')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(693): Slim\Slim->run()
+#9 {main} in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 481
+[23-Feb-2017 11:54:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::query() in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php:481
+Stack trace:
+#0 /home/ahsanaasim/public_html/helpclick/v1/index.php(245): DbHandler->getAllNotices('rownok')
+#1 [internal function]: {closure}('rownok')
+#2 /home/ahsanaasim/public_html/helpclick/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#3 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#4 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#5 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#6 /home/ahsanaasim/public_html/helpclick/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/ahsanaasim/public_html/helpclick/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ahsanaasim/public_html/helpclick/v1/index.php(693): Slim\Slim->run()
+#9 {main} in /home/ahsanaasim/public_html/helpclick/include/DbHandler.php on line 481
+[24-Jun-2017 08:50:33 America/Chicago] PHP Warning:  require(.././libs/Slim/Slim.php): failed to open stream: No such file or directory in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 5
+[24-Jun-2017 08:50:33 America/Chicago] PHP Fatal error:  require(): Failed opening required '.././libs/Slim/Slim.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 5
+[24-Jun-2017 08:50:53 America/Chicago] PHP Warning:  require(.././libs/Slim/Slim.php): failed to open stream: No such file or directory in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 5
+[24-Jun-2017 08:50:53 America/Chicago] PHP Fatal error:  require(): Failed opening required '.././libs/Slim/Slim.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 5
+[24-Jun-2017 09:00:26 America/Chicago] PHP Warning:  require(.././libs/Slim/Slim.php): failed to open stream: No such file or directory in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 5
+[24-Jun-2017 09:00:26 America/Chicago] PHP Fatal error:  require(): Failed opening required '.././libs/Slim/Slim.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 5
+[24-Jun-2017 09:00:38 America/Chicago] PHP Warning:  require(.././libs/Slim/Slim.php): failed to open stream: No such file or directory in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 5
+[24-Jun-2017 09:00:38 America/Chicago] PHP Fatal error:  require(): Failed opening required '.././libs/Slim/Slim.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/ahsanaasim/public_html/helpclick/v1/index.php on line 5

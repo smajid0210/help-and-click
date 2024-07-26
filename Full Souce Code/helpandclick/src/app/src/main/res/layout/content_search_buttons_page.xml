@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dp"
+    android:background="#336666"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="0.5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="Tutorial"
+            android:id="@+id/tutor1"
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:textColor="#69F0AE"
+            android:textSize="10sp"
+            android:layout_gravity="right"
+            android:background="@drawable/searchpagebuttonborder" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="0.25">
+
+            <Button
+                android:text="View All Incidents"
+                android:id="@+id/all_incidents"
+                android:textColor="#69F0AE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="@null"
+                android:textAllCaps="false"
+                android:layout_margin="5dp"
+                android:drawableTop="@drawable/allincidentsok"
+                android:padding="10dp"
+                android:layout_weight="0.5"
+                android:textStyle="normal|italic"
+                android:fontFamily="serif" />
+
+            <Button
+                android:text="View My Incidents"
+                android:id="@+id/view_my_post"
+                android:textColor="#69F0AE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="@null"
+                android:textAllCaps="false"
+                android:layout_margin="5dp"
+                android:drawableTop="@drawable/viewmyincidentsok"
+                android:padding="10dp"
+                android:layout_weight="0.5"
+                android:textStyle="normal|italic"
+                android:fontFamily="serif" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+
+            <Button
+                android:text="View All Notices"
+                android:id="@+id/all_notices"
+                android:textColor="#69F0AE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:background="@null"
+                android:textAllCaps="false"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+
+                android:drawableTop="@drawable/okallnotices"
+                android:layout_weight="0.5"
+                android:textStyle="normal|italic"
+                android:fontFamily="serif" />
+
+
+            <Button
+                android:text="View My Notices"
+                android:id="@+id/view_my_notices"
+                android:textColor="#69F0AE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:background="@null"
+                android:textAllCaps="false"
+                android:layout_margin="5dp"
+                android:drawableTop="@drawable/viewmynoticesok"
+                android:padding="10dp"
+                android:layout_weight="0.5"
+                android:textStyle="normal|italic"
+                android:fontFamily="serif" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="shonarbangla.helpclick">
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA2" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".help_click_button_page"
+            android:label="@string/title_activity_help_click_button_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".incident_notice_button_page"
+            android:label="@string/title_activity_incident_notice_button_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".search_buttons_page"
+            android:label="@string/title_activity_search_buttons_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".incident_page_1"
+            android:label="@string/title_activity_incident_page_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".incident_page_2"
+            android:label="@string/title_activity_incident_page_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".notice_page_1"
+            android:label="@string/title_activity_notice_page_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".notice_page_2"
+            android:label="@string/title_activity_notice_page_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".All_Incidents"
+            android:label="@string/title_activity_all__incidents"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".all_notices"
+            android:label="@string/title_activity_all_notices"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view_my_posts"
+            android:label="@string/title_activity_view_my_posts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view_my_notices"
+            android:label="@string/title_activity_view_my_notices"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".access_page"
+            android:label="@string/title_activity_access_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sign_in_page"
+            android:label="@string/title_activity_sign_in_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".create_account_page"
+            android:label="@string/title_activity_create_account_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".searchList"
+            android:label="@string/title_activity_search_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".searchList1"
+            android:label="@string/title_activity_search_list1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".C"
+            android:label="@string/title_activity_c"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Comment_page_for_incidents"
+            android:label="@string/title_activity_comment_page_for_incidents"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Comment_Page_for_notice"
+            android:label="@string/title_activity_comment__page_for_notice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Comment_page_for_view_my_posts"
+            android:label="@string/title_activity_comment_page_for_view_my_posts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Comment_page_View_my_notice"
+            android:label="@string/title_activity_comment_page__view_my_notice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".big_image_incidents"
+            android:label="@string/title_activity_big_image_incidents"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".big_image_notices"
+            android:label="@string/title_activity_big_image_notices"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".big_image_incidents_mine"
+            android:label="@string/title_activity_big_image_incidents_mine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".big_image_notices_mine"
+            android:label="@string/title_activity_big_image_notices_mine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".introslide"
+            android:label="@string/title_activity_introslide"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".loadingimg"
+            android:label="@string/title_activity_loadingimg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".about_us"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".police"
+            android:label="@string/title_activity_police"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fab"
+            android:label="@string/title_activity_fab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hospital"
+            android:label="@string/title_activity_hospital"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".bloodbank"
+            android:label="@string/title_activity_bloodbank"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".settings_page"
+            android:label="@string/title_activity_settings_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".comment_incident"
+            android:label="@string/title_activity_comment_incident"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".comment_incidentmine"
+            android:label="@string/title_activity_comment_incidentmine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".comment_notice"
+            android:label="@string/title_activity_comment_notice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".comment_noticemine"
+            android:label="@string/title_activity_comment_noticemine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".emergencyPhoneNumbers"
+            android:label="@string/title_activity_emergency_phone_numbers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".floating"
+            android:label="@string/title_activity_floating"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_blood_bank"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="shonarbangla.helpclick.bloodBank"
+    android:background="#263238"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <TextView
+            android:text="
+
+Islami Bank Hospital Blood Bank: 8317090 , 8321495
+Quantum Blood Bank: +88029351969 , 01714010869
+Red Crescent Blood Bank: 9116563, 8121497
+Shandhani,Dhaka Dental College Branch: 9011887
+Shandhani, Dhaka Medical College Branch: 9668690,861674
+Sir Salimullah College Blood Bank: 7319123
+Badhan Blood Bank: 01534982674
+Sandhani (Central): 88028621658
+Police Blood Bank: 01713398386
+Oriental Blood bank: 01812700053
+Mukti Blood Bank and Pathology Lab: 028317090
+Red Crescent Blood Bank: 9116563, 8121497
+Islami Bank Hospital Blood Bank: 8317090,8321495
+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/t"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff"/>
+
+
+    </ScrollView>
+
+ />
+</RelativeLayout>

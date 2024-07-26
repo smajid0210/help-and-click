@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="shonarbangla.helpclick.Comment_page_for_view_my_posts"
+
+    android:paddingBottom="8dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp"
+    android:background="#263238">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+    <include layout="@layout/content_comment_page_for_view_my_posts" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_input_add"
+        app:backgroundTint="#651FFF" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/information">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#455A64"
+            android:layout_marginBottom="10dp"
+            android:weightSum="1"
+            >
+
+            <TextView
+                android:text="My Incidents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FF8A65"
+                android:id="@+id/textView4"
+                android:textSize="24sp"
+                android:fontFamily="serif"
+                android:textStyle="normal|bold|italic" />
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/list_selector"
+        android:weightSum="1"
+        android:id="@+id/fullincident">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <ImageView
+
+            android:id="@+id/imageView1_viewMyPost"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/camera"
+            app:layout_anchor="@+id/include"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="5dp"
+
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Incident Details"
+                android:textSize="20dp"
+                android:textColor="#69F0AE"
+                android:textStyle="normal|bold"
+
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ffffff"/>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+
+
+                    android:text="Age                         : "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:textColor="#69F0AE"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+
+
+
+                    android:text="Age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/comment_page_age_viewMyPost"
+                    android:textColor="#ffffff"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:text="Gender                   : "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+
+                    android:textColor="#69F0AE"
+                    android:textStyle="normal|bold" />
+
+
+
+
+
+                <TextView
+                    android:text="Gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:id="@+id/comment_page_gender_viewMyPost"
+                    android:textColor="#ffffff"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:text="Nearby Thana       : "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:textColor="#69F0AE"
+                    android:textStyle="normal|bold" />
+
+
+                <TextView
+                    android:text="Nearby Thana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/comment_page_thana_viewMyPost"
+                    android:textColor="#ffffff"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="Date                        : "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+
+
+
+                    android:textColor="#69F0AE"
+                    android:textStyle="normal|bold" />
+
+
+                <TextView
+                    android:text="Date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="textMultiLine"
+                    android:id="@+id/comment_page_date_viewMyPost"
+                    android:textColor="#ffffff"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:text="Location                : "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="#69F0AE"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:text="Location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/comment_page_location_viewMyPost"
+                    android:textColor="#ffffff"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="Contact                  : "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+
+
+                    android:textColor="#69F0AE"
+                    android:textStyle="normal|bold" />
+
+
+                <TextView
+                    android:text="Contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+
+                    android:id="@+id/comment_page_contact_viewMyPost"
+                    android:textColor="#ffffff"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="Description            : "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+
+
+                    android:textColor="#69F0AE"
+
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:text="Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+
+                    android:id="@+id/comment_page_description_viewMyPost"
+
+                    android:textColor="#ffffff"
+
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:text="Comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="20sp"
+            android:paddingLeft="10dp"
+            android:textColor="#69F0AE"
+            android:layout_marginTop="10dp"
+            android:textStyle="normal|bold|italic" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"
+            />
+
+        <EditText
+            android:hint=" Write your Comment here"
+            android:maxLines="1"
+
+
+            android:id="@+id/comment_mypost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:background="#FFFFFF"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:textCursorDrawable="@null"
+            android:padding="10dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:layout_marginBottom="5dp">
+
+            <Button
+                android:text="Delete Post"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:padding="5dp"
+
+                android:textColor="#424242"
+                android:background="@drawable/border"
+                android:drawableLeft="@android:drawable/ic_delete"
+                android:textAllCaps="false"
+                android:layout_marginRight="5dp"
+                android:id="@+id/delete_post"
+
+                android:layout_weight="0.5"
+
+                />
+
+
+            <Button
+                android:text="Comment"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textColor="#424242"
+                android:background="@drawable/border"
+                android:drawableLeft="@android:drawable/ic_menu_upload"
+                android:textAllCaps="false"
+                android:id="@+id/button_viewMyPost"
+                android:layout_weight="0.5"
+                android:padding="5dp"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="1dp"/>
+
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

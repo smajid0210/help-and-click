@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#263238"
+
+    tools:context="shonarbangla.helpclick.All_Incidents">
+
+    <include layout="@layout/content_all__incidents" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+
+        android:background="#263238">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="10dp"
+            android:weightSum="1"
+            android:id="@+id/information"
+            android:background="#455A64"
+            >
+
+            <TextView
+                android:text="All Incidents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FF8A65"
+                android:id="@+id/textView4"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:fontFamily="serif" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="1"
+                android:background="@drawable/list_selector">
+
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gender"
+                        android:layout_weight="0.5"
+                    android:textColor="#69F0AE"
+                        android:drawableRight="@android:drawable/ic_menu_view"
+                        android:gravity="center"
+                        android:textStyle="normal|bold" />
+
+                <Spinner
+                        android:id="@+id/spinner_incident_gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textAlignment="center"
+                        android:layout_weight="0.5">
+                    </Spinner>
+
+                </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/list_selector">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:textColor="#69F0AE"
+                    android:gravity="center"
+                    android:layout_weight="0.5"
+                    android:drawableRight="@android:drawable/ic_menu_view"
+                    android:textStyle="normal|bold" />
+
+
+                <Spinner
+                    android:id="@+id/spinner_incident_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+
+                    android:layout_weight="0.5">
+                </Spinner>
+
+                    </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector">
+
+                <TextView
+                    android:id="@+id/textView3_all_incidents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/button1"
+                    android:layout_below="@+id/textView2"
+                    android:layout_gravity="center"
+                    android:onClick="setDate"
+                    android:hint="Date"
+                    android:textColorHint="#69F0AE"
+                    android:textColor="#69F0AE"
+                    android:gravity="center"
+                    android:layout_weight="0.5"
+                    android:textStyle="normal"
+                    android:text="@string/date_selected"
+
+                     />
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@null"
+
+                    android:text="Incident Date"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:textColor="#69F0AE"
+                    android:layout_weight="0.5"
+                    android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+                    android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+
+
+
+
+                <Button
+                    android:text="Search"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+
+                    android:textSize="14sp"
+                    android:background="@drawable/list_selector"
+                    android:textColor="#69F0AE"
+                    android:drawableLeft="@android:drawable/ic_menu_search"
+                    android:id="@+id/button_all_incidents"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+        <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp">
+            </ListView>
+
+        </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

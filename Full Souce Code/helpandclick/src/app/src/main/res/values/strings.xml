@@ -1,0 +1,477 @@
+<resources>
+    <string name="app_name">Help and Click</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_help_click_button_page">help_click_button_page</string>
+    <string name="title_activity_incident_notice_button_page">incident_notice_button_page</string>
+    <string name="title_activity_search_buttons_page">search_buttons_page</string>
+    <string name="title_activity_incident_page_1">incident_page_1</string>
+    <string name="title_activity_incident_page_2">incident_page_2</string>
+    <string name="title_activity_notice_page_1">notice_page_1</string>
+    <string name="title_activity_notice_page_2">notice_page_2</string>
+    <string name="title_activity_all__incidents">All_Incidents</string>
+    <string name="title_activity_all_notices">all_notices</string>
+    <string name="title_activity_view_my_posts">view_my_posts</string>
+    <string name="title_activity_view_my_notices">view_my_notices</string>
+    <string name="title_activity_all_incident_page">all_incident_page</string>
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+
+
+    <string name="missing">"একটি নিখোঁজ সংবাদ!"</string>
+    <string name="tonima">"মিস্টার হাসান গতকাল রাতে অফিস থেকে আর বাসায় ফিরেন নি। আত্মীয় স্বজন, কলিগ, বন্ধু বান্ধব কোথাও তার খোঁজ পাওয়া যায়নি। শেষ পর্যন্ত পুলিশের কাছে জিডি করা হয়েছে এবং মাইকিং চলছে!"</string>
+    <string name="tense">"ঠিক এই সময় শেষ ভরসা হিসেবে মিসেস হাসান হেল্প চেয়ে একটি নোটিশ পোস্ট  করেন Help and Click মোবাইল এপ্লিকেশনে"</string>
+    <string name="tarpor">"এর ঠিক কিছুক্ষণ আগে অজ্ঞান পার্টির খপ্পড়ে পড়ে রাস্তার পাশে ফুটপাত থেকে জ্ঞানহীন একটি লোককে হাসপাতালে নিয়ে যান কিছু পথচারী। তাদের মাঝেই একজন লোকটির পরিচয় জানতে চেয়ে Incident টি পোস্ট  দেন"</string>
+    <string name="end">"পোস্ট টি দেখতে পেয়ে হাসপাতালে ছুটে যান মিসেস হাসান। Help and Click তাদের নতুন জীবনে বিপদের বন্ধু হিসেবে কাজ করে </string>
+    <string name="help">"আপনি যদি কারো নিখোঁজ সংবাদ দিতে চান অথবা পরিচয়হীন কাউকে খুঁজে পেয়েছেন এমন কারো সম্পর্কে পোস্ট" করতে চান- এখানে ক্লিক করুন "</string>
+    <string name="click">"আপনার নিখোঁজ কোন পরিচিত জনকে খুঁজে পেতে এখানে সার্চ  করুন"</string>
+    <string name="incident">" পরিচয়হীন কাউকে খুঁজে পেয়েছেন এমন কারো সম্পর্কে পোস্ট" করতে চান- এখানে ক্লিক করুন"</string>
+    <string name="notice">"কারো নিখোঁজ সংবাদ দিতে এখানে ক্লিক করুন"</string>
+
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="Gender_Selection">Gender Selection</string>
+
+    <string-array name="genders">
+        <item>Select gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="ages">
+        <item>Select age</item>
+        <item>0-10</item>
+        <item>11-20</item>
+        <item>21-30</item>
+        <item>31-40</item>
+        <item>41-50</item>
+        <item>51-60</item>
+        <item>60+</item>
+    </string-array>
+
+
+    <string-array name="Thana">
+        <item>Nearby Thana</item>
+        <item>Adabor</item>
+        <item>Agargaon</item>
+        <item>Badda</item>
+        <item>Biman Bandar</item>
+        <item>Bangshal</item>
+        <item>Cantonment</item>
+        <item>Chawkbazar Model</item>
+        <item>Dakshinkhan</item>
+        <item>Darus Salam</item>
+        <item>Dhanmondi</item>
+        <item>Demra</item>
+        <item>Kotwali</item>
+        <item>Gendaria</item>
+        <item>Gulshan</item>
+        <item>Hazaribagh</item>
+        <item>Jatrabari</item>
+        <item>Kadamtali</item>
+        <item>Kafrul</item>
+        <item>Kalabagan</item>
+        <item>Kamringir Char</item>
+        <item>Khilkhet</item>
+        <item>Khilgaon</item>
+        <item>Lalbagh</item>
+        <item>Mirpur</item>
+        <item>Mohammadpur</item>
+        <item>Motijheel</item>
+        <item>New Market</item>
+        <item>Pallabi</item>
+        <item>Paltan</item>
+        <item>Ramna</item>
+        <item>Rampura</item>
+        <item>Shah Ali</item>
+        <item>Shahbagh</item>
+        <item>Sher-e-Bangla Nagor</item>
+        <item>Sutrapur</item>
+        <item>Tejgaon</item>
+        <item>Tejgaon Industrial Area</item>
+        <item>Turag</item>
+        <item>Uttar Khan</item>
+        <item>Uttara</item>
+    </string-array>
+
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="date_button_set">Select Date*</string>
+
+    <string name="date_selected"></string>
+    <string name="title_activity_access_page">access_page</string>
+    <string name="title_activity_sign_in_page">Sign_in_page</string>
+    <string name="title_activity_create_account_page">create_account_page</string>
+    <string name="title_activity_search_list">searchList</string>
+    <string name="title_activity_search_list1">searchList1</string>
+    <string name="title_activity_c">C</string>
+    <string name="title_activity_comment_page_for_incidents">Comment_page_for_incidents</string>
+    <string name="title_activity_comment__page_for_notice">Comment_Page_for_notice</string>
+    <string name="title_activity_comment_page_for_view_my_posts">Comment_page_for_view_my_posts
+    </string>
+    <string name="title_activity_comment_page__view_my_notice">Comment_page_View_my_notice</string>
+    <string name="title_activity_big_image_incidents">big_image_incidents</string>
+    <string name="title_activity_big_image_notices">big_image_notices</string>
+    <string name="title_activity_big_image_incidents_mine">big_image_incidents_mine</string>
+    <string name="title_activity_big_image_notices_mine">big_image_notices_mine</string>
+    <string name="title_activity_introslide">introslide</string>
+    <string name="title_activity_loadingimg">loadingimg</string>
+    <string name="title_activity_about_us">about_us</string>
+    <string name="title_activity_emergency_contact">emergency_contact</string>
+    <string name="title_activity_police">police</string>
+    <string name="title_activity_fab">fab</string>
+
+    <string name="policetitle">
+
+    ঢাকা বিভাগ\n
+    ডি এম পি, ঢাকা\n
+
+    </string>
+
+
+    <string name="police">
+
+
+১) ওসি রমনা- ০১৭১৩৩৭৩১২৫\n
+২) ওসি ধানমন্ডি- ০১৭১৩৩৭৩১২৬\n
+৩) ওসি শাহাবাগ- ০১৭১৩৩৭৩১২৭\n
+৪) ওসি নিউ মার্কেট- ০১৭১৩৩৭৩১২৮\n
+৫) ওসি লালবাগ- ০১৭১৩৩৭৩১৩৪\n
+৬) ওসি কোতয়ালী- ০১৭১৩৩৭৩১৩৫\n
+৭) ওসি হাজারীবাগ- ০১৭১৩৩৭৩১৩৬\n
+৮) ওসি কামরাঙ্গীরচর- ০১৭১৩৩৭৩১৩৭\n
+৯) ওসি সুত্রাপুর- ০১৭১৩৩৭৩১৪৩\n
+১০) ওসি ডেমরা- ০১৭১৩৩৭৩১৪৪\n
+১১) ওসি শ্যামপুর- ০১৭১৩৩৭৩১৪৫\n
+১২) ওসি যাত্রাবাড়ী- ০১৭১৩৩৭৩১৪৬\n
+১৩) ওসি মতিঝিল- ০১৭১৩৩৭৩১৫২\n
+১৪) ওসি সবুজবাগ- ০১৭১৩৩৭৩১৫৩\n
+১৫) ওসি খিলগাও- ০১৭১৩৩৭৩১৫৪\n
+১৬) ওসি পল্টন- ০১৭১৩৩৭৩১৫৫\n
+১৭) ওসি উত্তরা- ০১৭১৩৩৭৩১৬১\n
+১৮) ওসি এয়ারপোর্ট- ০১৭১৩৩৭৩১৬২\n
+১৯) ওসি তুরাগ- ০১৭১৩৩৭৩১৬৩\n
+২০) ওসি উত্তরখান- ০১৭১৩৩৭৩১৬৪\n
+২১) ওসি দক্ষিনখান- ০১৭১৩৩৭৩১৬৫\n
+২২) ওসি গুলশান- ০১৭১৩৩৭৩১৭১\n
+২৩) ওসি ক্যান্টনমেন্ট- ০১৭১৩৩৭৩১৭২\n
+২৪) ওসি বাড্ডা- ০১৭১৩৩৭৩১৭৩\n
+২৫) ওসি খিলক্ষেত- ০১৭১৩৩৭৩১৭৪\n
+২৬) ওসি তেজগাও- ০১৭১৩৩৭৩১৮০\n
+২৭) ওসি তেজগাও শি/এ- ০১৭১৩৩৭৩১৮১\n
+২৮) ওসি মোহাম্মদপুর- ০১৭১৩৩৭৩১৮২\n
+২৯) ওসি আদাবর- ০১৭১৩৩৭৩১৮৩\n
+৩০) ওসি মিরপুর- ০১৭১৩৩৭৩১৮৯\n
+৩১) ওসি পল্লবী- ০১৭১৩৩৭৩১৯০\n
+৩২) ওসি কাফরুল- ০১৭১৩৩৭৩১৯১\n
+৩৩) ওসি শাহ আলী- ০১৭১৩৩৭৩১৯২\n
+
+        এবং\n
+
+১) ওসি সাভার- ০১৭১৩৩৭৩৩২৭\n
+২) ওসি ধামরাই- ০১৭১৩৩৭৩৩২৮\n
+৩) ওসি কেরানীগঞ্জ- ০১৭১৩৩৭৩৩২৯\n
+৪) ওসি নবাবগঞ্জ- ০১৭১৩৩৭৩৩৩০\n
+৫) ওসি দোহার- ০১৭১৩৩৭৩৩৩১\n
+৬) ওসি আশুলিয়া- ০১৭১৩৩৭৩৩৩২\n
+৭) ওসি দক্ষিন কেরানীগঞ্জ-০১৭১৩৩৭৩৩৩৩\n
+৮) ওসি নারায়নগঞ্জ- ০১৭১৩৩৭৩৩৪৫\n
+৯) ওসি ফতুল্লা- ০১৭১৩৩৭৩৩৪৬\n
+১০) ওসি বন্দর- ০১৭১৩৩৭৩৩৪৭\n
+১১) ওসি সিদ্দিরগঞ্জ- ০১৭১৩৩৭৩৩৪৮\n
+১২) ওসি আড়াইহাজার- ০১৭১৩৩৭৩৩৪৯\n
+১৩) ওসি সোনারগাও- ০১৭১৩৩৭৩৩৫০\n
+১৪) ওসি রুপগঞ্জ- ০১৭১৩৩৭৩৩৫১\n
+১৫) ওসি জয়দেবপুর ০১৭১৩৩৭৩৩৬৩\n
+১৬) ওসি টংগী- ০১৭১৩৩৭৩৩৬৪\n
+১৭) ওসি কালিয়াকৈর- ০১৭১৩৩৭৩৩৬৫\n
+১৮) ওসি শ্রীপুর- ০১৭১৩৩৭৩৩৬৬\n
+১৯) ওসি কাপাসিয়া- ০১৭১৩৩৭৩৩৬৭\n
+২০) ওসি কালিগঞ্জ- ০১৭১৩৩৭৩৩৬৮\n
+২১) ওসি মানিকগঞ্জ- ০১৭১৩৩৭৩৩৭৯\n
+২২) ওসি ঘিওর- ০১৭১৩৩৭৩৩৮০\n
+২৩) ওসি শিবালয়- ০১৭১৩৩৭৩৩৮১\n
+২৪) ওসি দৌলতপুর- ০১৭১৩৩৭৩৩৮২\n
+২৫) ওসি হরিরামপুর- ০১৭১৩৩৭৩৩৮৩\n
+২৬) ওসি সাটুরিয়া- ০১৭১৩৩৭৩৩৮৪\n
+২৭) ওসি সিংগাইর- ০১৭১৩৩৭৩৩৮৫\n
+২৮) ওসি মুন্সীগঞ্জ- ০১৭১৩৩৭৩৩৯৬\n
+২৯) ওসি টংগীবাড়ী- ০১৭১৩৩৭৩৩৯৭\n
+৩০) ওসি লৌহজং- ০১৭১৩৩৭৩৩৯৮\n
+৩১) ওসি শ্রীনগর- ০১৭১৩৩৭৩৩৯৯\n
+৩২) ওসি সিরাজদীখান- ০১৭১৩৩৭৩৪০০\n
+৩৩) ওসি গজারিয়া- ০১৭১৩৩৭৩৪০১\n
+৩৪) ওসি নরসিংদী- ০১৭১৩৩৭৩৪১২\n
+৩৫) ওসি রায়পুর- ০১৭১৩৩৭৩৪১৩\n
+৩৬) ওসি শিবপুর- ০১৭১৩৩৭৩৪১৪\n
+৩৭) ওসি বেলাবো- ০১৭১৩৩৭৩৪১৫\n
+৩৮) ওসি মনোহরদী- ০১৭১৩৩৭৩৪১৬\n
+৩৯) ওসি পলাশ- ০১৭১৩৩৭৩৪১৭\n
+৪০) ওসি কোতয়ালী মযমনসিংহ-০১৭১৩৩৭৩৪৩০\n
+৪১) ওসি মুক্তাগাছা- ০১৭১৩৩৭৩৪৩১\n
+৪২) ওসি ফুলবাড়ী- ০১৭১৩৩৭৩৪৩২\n
+৪৩) ওসি ত্রিশাল- ০১৭১৩৩৭৩৪৩৩\n
+৪৪) ওসি গৌরীপুর- ০১৭১৩৩৭৩৪৩৪\n
+৪৫) ওসি ঈশ্বরগঞ্জ- ০১৭১৩৩৭৩৪৩৫\n
+৪৬) ওসি নান্দাইল- ০১৭১৩৩৭৩৪৩৬\n
+৪৭) ওসি ফুলপুর- ০১৭১৩৩৭৩৪৩৭\n
+৪৮) ওসি হালুয়াঘাট- ০১৭১৩৩৭৩৪৩৮\n
+৪৯) ওসি ধোবাউরা- ০১৭১৩৩৭৩৪৩৯\n
+৫০) ওসি গফরগাও- ০১৭১৩৩৭৩৪৪০\n
+৫১) ওসি ভালুকা- ০১৭১৩৩৭৩৪৪১\n
+৫২) ওসি তারাকান্দা- ০১৭১৩৩৭৩৪৪২\n
+৫৩) ওসি টাঙ্গাইল- ০১৭১৩৩৭৩৪৫৪\n
+৫৪) ওসি মির্জাপুর- ০১৭১৩৩৭৩৪৫৫\n
+৫৫) ওসি নাগরপুর- ০১৭১৩৩৭৩৪৫৬\n
+৫৬) ওসি সখিপুর- ০১৭১৩৩৭৩৪৫৭\n
+৫৭) ওসি বাসাইল- ০১৭১৩৩৭৩৪৫৮\n
+৫৮) ওসি দেলদুয়ার- ০১৭১৩৩৭৩৪৫৯\n
+৫৯) ওসি মধুপুর- ০১৭১৩৩৭৩৪৬০\n
+৬০) ওসি ঘাটাইল- ০১৭১৩৩৭৩৪৬১\n
+৬১) ওসি কালিহাতি- ০১৭১৩৩৭৩৪৬২\n
+৬২) ওসি ভুয়াপুর- ০১৭১৩৩৭৩৪৬৩\n
+৬৩) ওসি ওসি যমুনা ব্রীজ পূর্ব-০১৭১৩৩৭৩৪৬৪\n
+৬৪) ওসি ধনবাড়ী- ০১৭১৩৩৭৩৪৬৫\n
+৬৫) ওসি গোপালপুর- ০১৭১৩৩৭৩৪৬৬\n
+৬৬) ওসি কিশোরগঞ্জ- ০১৭১৩৩৭৩৪৮০\n
+৬৭) ওসি করিমগঞ্জ- ০১৭১৩৩৭৩৪৮১\n
+৬৮) ওসি তারাইল- ০১৭১৩৩৭৩৪৮২\n
+৬৯) ওসি হোসেনপুর- ০১৭১৩৩৭৩৪৮৩\n
+৭০) ওসি কটিয়াদী- ০১৭১৩৩৭৩৪৮৪\n
+৭১) ওসি বাজিতপুর- ০১৭১৩৩৭৩৪৮৫\n
+৭২) ওসি কুলিয়ারচর- ০১৭১৩৩৭৩৪৮৬\n
+৭৩) ওসি ভৈরব- ০১৭১৩৩৭৩৪৮৭\n
+৭৪) ওসি ইটনা- ০১৭১৩৩৭৩৪৮৮\n
+৭৫) ওসি মিঠামইন- ০১৭১৩৩৭৩৪৮৯\n
+৭৬) ওসি নিকলী- ০১৭১৩৩৭৩৪৯০\n
+৭৭) ওসি পাকুন্দিয়া- ০১৭১৩৩৭৩৪৯১\n
+৭৮) ওসি অষ্টগ্রাম- ০১৭১৩৩৭৩৪৯২\n
+৭৯) ওসি নেত্রকোনা- ০১৭১৩৩৭৩৫০৫\n
+৮০) ওসি বারহাট্টা- ০১৭১৩৩৭৩৫০৬\n
+৮১) ওসি কলমাকান্দা- ০১৭১৩৩৭৩৫০৭\n
+৮২) ওসি আটপাড়া- ০১৭১৩৩৭৩৫০৮\n
+৮৩) ওসি দুর্গাপুর- ০১৭১৩৩৭৩৫০৯\n
+৮৪) ওসি পূর্বধলা- ০১৭১৩৩৭৩৫১০\n
+৮৫) ওসি কেন্দুয়া- ০১৭১৩৩৭৩৫১১\n
+৮৬) ওসি মদন- ০১৭১৩৩৭৩৫১২\n
+৮৭) ওসি মোহনগঞ্জ- ০১৭১৩৩৭৩৫১৩\n
+৮৮) ওসি খালিজুরি- ০১৭১৩৩৭৩৫১৪\n
+৮৯) ওসি শেরপুর- ০১৭১৩৩৭৩৫২৩\n
+৯০) ওসি নকলা- ০১৭১৩৩৭৩৫২৪\n
+৯১) ওসি নলিতাবাড়ী- ০১৭১৩৩৭৩৫২৫\n
+৯২) ওসি শ্রীবর্দী- ০১৭১৩৩৭৩৫২৬\n
+৯৩) ওসি ঝিনাইগাতি- ০১৭১৩৩৭৩৫২৭\n
+৯৪) ওসি জামালপুর- ০১৭১৩৩৭৩৫৩৮\n
+৯৫) ওসি মেলান্দহ- ০১৭১৩৩৭৩৫৩৯\n
+৯৬) ওসি সরিষাবাড়ী- ০১৭১৩৩৭৩৫৪০\n
+৯৭) ওসি দেওয়ানগঞ্জ- ০১৭১৩৩৭৩৫৪১\n
+৯৮) ওসি ইসলামপুর- ০১৭১৩৩৭৩৫৪২\n
+৯৯) ওসি মাদারগঞ্জ- ০১৭১৩৩৭৩৫৪৩\n
+১০০) ওসি বকশীগঞ্জ- ০১৭১৩৩৭৩৫৪৪\n
+১০১) ওসি বাহাদুরাবাদ- ০১৭১৩৩৭৩৫৪৫\n
+১০২) ওসি কোতয়ালী ফরিদপুর- ০১৭১৩৩৭৩৫৫৬\n
+১০৩) ওসি মধুখালী- ০১৭১৩৩৭৩৫৫৭\n
+১০৪) ওসি বোয়ালমারী- ০১৭১৩৩৭৩৫৫৮\n
+১০৫) ওসি আলফাডাঙ্গা- ০১৭১৩৩৭৩৫৫৯\n
+১০৬) ওসি চরভদ্রাসন- ০১৭১৩৩৭৩৫৬০\n
+১০৭) ওসি নগরকান্দা- ০১৭১৩৩৭৩৫৬১\n
+১০৮) ওসি সদরপুর- ০১৭১৩৩৭৩৫৬২\n
+১০৯) ওসি সালতা- ০১৭১৩৩৭৩৫৬৩\n
+১১০) ওসি ভাংগা- ০১৭১৩৩৭৩৫৬৪\n
+১১১) ওসি গোপালগঞ্জ- ০১৭১৩৩৭৩৫৭২\n
+১১২) ওসি মকসুদপুর- ০১৭১৩৩৭৩৫৭৩\n
+১১৩) ওসি কাশিয়ানী- ০১৭১৩৩৭৩৫৭৪\n
+১১৪) ওসি কোটালীপাড়া- ০১৭১৩৩৭৩৫৭৫\n
+১১৫) ওসি টুঙ্গিপাড়া- ০১৭১৩৩৭৩৫৭৬\n
+১১৬) ওসি মাদারীপুর- ০১৭১৩৩৭৩৫৮৫\n
+১১৭) ওসি রাজৈর- ০১৭১৩৩৭৩৫৮৬\n
+১১৮) ওসি কালকিনি- ০১৭১৩৩৭৩৫৮৭\n
+১১৯) ওসি শিবচর- ০১৭১৩৩৭৩৫৮৮\n
+১২০) ওসি রাজবাড়ী- ০১৭১৩৩৭৩৫৯৮\n
+১২১) ওসি বালিয়াকান্দি- ০১৭১৩৩৭৩৫৯৯\n
+১২২) ওসি পাংশা- ০১৭১৩৩৭৩৬০০\n
+১২৩) ওসি গোয়ালন্দ- ০১৭১৩৩৭৩৬০১\n
+১২৪) ওসি গোসাইরহাট- ০১৭১৩৩৭৩৬১২\n
+১২৫) ওসি ভেদরগঞ্জ- ০১৭১৩৩৭৩৬১৩\n
+১২৬) ওসি ডামুড্ডা- ০১৭১৩৩৭৩৬১৪\n
+১২৭) ওসি জাজিরা- ০১৭১৩৩৭৩৬১৫\n
+১২৮) ওসি নড়িয়া- ০১৭১৩৩৭৩৬১৬\n
+১২৯) ওসি পালং- ০১৭১৩৩৭৩৬১৭\n
+১৩০) ওসি শখিপুর- ০১৭১৩৩৭৩৬১৮\n
+
+
+    </string>
+
+
+
+
+
+    <string name="hospital">
+
+    Anjuman-e-MofidulIslam 9336611,248166, 239808\n\n
+    BangladeshDiabetic Society 9661551-60\n\n
+    Al-Baraka Kidny Hospital 9350884, 9351164\n\n
+    Al-Biruni Hospital 8118905, 9115958\n\n
+    Al-Manar Hospital 9121387, 9121588\n\n
+    Al-Markajul Islamic Hospital 9129426, 9129217\n\n
+    Al-Maghraby Eye Hospital 9135451-2, 8114142\n\n
+    Al-Rajhi Hospital(PVT.)Ltd 8119229, 9117775\n\n
+
+
+    Bangkok Hospital 9139777, 9134982, 8111154\n\n
+    BARDEM(Shabagh Avenue) 8616641-50\n\n
+    BDF Hospital 8113431 8323730\n\n
+    Bangladesh Diabetic Society 9661551-60\n\n
+    Bangladesh Diagonostic  Medical center 9335838, 8322249\n\n
+    B.N.S. Eye Dhaka 8014476\n\n
+    Bangladesh Medical College Hospital 9118202\n\n
+
+
+    China Bangla Hospital 8913674 8913606\n\n
+    Cholera Hospital 600171-8\n\n
+    CMH(Dhaka) 9871469\n\n
+    Chritian Medical Hospital 9886298 8813375\n\n
+
+
+    Dhaka Medical Collage 500121-6 505025-29, 502529\n\n
+    Fire Service for Ambulance 9555555 9556666\n\n
+    Green Hospital 8612412 8619068\n\n
+    Holy Family Red Cresent 8311721-5 8315007-8\n\n
+    Hospital For Infection Disease 602429\n\n
+
+
+    ICDDRB B 8811751-60\n\n
+    ICDDRB B (Ambulance) 8811751-59\n\n
+    ICDDRB B (Director) 8823031\n\n
+    ICDDRB B 8811751-59\n\n
+    IPGMR 8614545-9 8611737-41, 8614001-5\n\n
+    Islami Bank Hospital 8317090 8321495\n\n
+    Islamia Eye Hospital 9119315 8112156\n\n
+    Lion Eye Hospital 9129127\n\n
+    Lab Aid Cardiac Hospital 880-2-8610793-8, 8629782\n\n
+
+
+    Maternity Hospital (Azimpur) 503329\n\n
+    Mirpur General Hospital 9007873 8015444\n\n
+    Mitford Hospital 7319002-6\n\n
+    Monowara General Hospital 239446 244717\n\n
+    Monowara Hospital (Pvt) Ltd. 8318135 8319802\n\n
+
+
+    National medical Institute Hospital 237300 233469\n\n
+    Orthopedic Hospital 9112150\n\n
+    Railway Hospital 409341-9\n\n
+    Royal Hospital (Pvt) Ltd. 8313096\n\n
+    Salimullah medical College Hospital 7319002-6\n\n
+    Samorita Hospital 9131901\n\n
+    Shahid Suhrawardi Hospital 9122560-78 9112086, 8114856, 9130800\n\n
+    Shahid Suhrawardi Emergency 9130050\n\n
+    Shishu Hospital 8116061-2 9119119\n\n
+    South Asian Hospital 8616565\n\n
+    Stone Crash Hospital 8618388\n\n
+
+
+    Heart Hospital 9801874 9803302\n\n
+    T.B. Hospital (Mohakhali) 608031-4\n\n
+    Women  Children`s Hospital Research Cintre 9115458 9121077\n\n
+    Yamagata Dhaka Friendship Hospital 9129354\n\n
+    Aroggaya Niketan 9333730\n\n
+    Compath Clinic 8617844 9660086, 508651\n\n
+    Comfort Diagnostic Centre 8616045 9660111\n\n
+    Cosmopolitan 601774\n\n
+    Dhaka Monorog Clinic 9005050\n\n
+    Dipham R  S Centre 8117772-3 9125811\n\n
+    Enayet Hospital 509313 509586\n\n
+    Gulshan Mother Child Clinic 8822738 8812992\n\n
+    Ibn Sina Clinic 8119513\n\n
+    Judi Maternity 9113322\n\n
+    Medi Aid Clinic 9112076 8118456\n\n
+    Medistone Clinic 405092\n\n
+    Paltan Poly Clinic 9557385\n\n
+    Peeriess Diagnostic Treatment Centre 9550441\n\n
+    Retina Eye Centre (Clinic) 9884588 9884566\n\n
+    Rajdhani Clinic 413525\n\n\n
+
+
+    Rusmono Clinic 418268 418205\n\n
+    Sclavo Medical Centre 9351404 8311830, 418409\n\n
+    Shefa Nursing Home 9111758\n\n
+    Shumana Clinic 245534\n\n
+    The Eye Clinic 9333238\n\n
+    Trauma Centre 327257 8116969\n\n
+    Uttara Heart Centre Pvt. Ltd. 9118138 8911875\n\n
+    Bikalpa Dental Clinic 606634\n\n
+    Capital Dental Clinic 328888\n\n
+    Capital Dental X-ray Clinic 501531 328888\n\n
+    Dental Clinic (Chittagong) 634837\n\n
+    Dental Clinic (Tajmahal Road) 326433\n\n
+    Endo Dental Clinic 413851\n\n
+    Fatema Dental Care 9342033\n\n
+    Flowrence Dental Care 9342033\n\n
+    Intimate Dintal Clinic 8612136\n\n
+    Mukul Dental Clinic 500007\n\n
+    National Dental Care 328888\n\n
+
+
+    Oroni Dental Clinic (Mirpur) 8014760\n\n
+    Palashy Dental Clinic 501892\n\n
+    Popular X-Ray 506089\n\n
+    Ratan Dental Clinic 8614898 508000\n\n
+    Shajahanpur Dental Clinic 9332125\n\n
+    The Dental Surgeons Ltd. 415458 9342275\n\n
+    U.S Dental Clinic 8912891 8918090\n\n
+    </string>
+    <string name="title_activity_hospital">hospital</string>
+
+
+    <string name="bloodbank">
+        Badhan	( A Vouluntary Blood Donor Organization ) TSC, Dhaka University, Phone: 8629042
+Mobile:01711025876\n\n
+Islami Bank Hospital	Kakril,Dhaka
+Tel:8317090, 8321495\n\n
+Quantum Lab	119, Shantinagar, Dhaka
+Tel: 9351969, 8322987
+Mobile:01714010869\n\n
+Red Crescent Blood Center	7/5, Aurangzeb Road, Mohammadpur, Dhaka
+Tel: 9116563, 8121497\n\n
+Salimullah Medical College	Dhaka
+Tel: 7319123\n\n
+Sandhani	Sir Salimullah Medical College Mitford Hospital Unit, Dhaka
+Tel:7319123, 9668690, 01819284878\n\n
+Sandhani	Bangladesh Medical College Unit.
+Dhanmondi, Dhaka
+Tel:0152371531, 0152423441\n\n
+Sandhani	Dental College Unit. Mirpur - 14, Dhaka, Tel: 9011887\n\n
+Sandhani	Dhaka Medical College Hospital Unit, Dhaka
+Tel: 9668690, 8616744, 9663429, 01819284878\n\n
+Sandhani	Mymensingh Medical College Unit. Mymensingh
+Tel: 091-54829\n\n
+Sandhani
+(Inter Eye Bank)
+
+Dhaka
+Tel: 8614040\n\n
+Sandhani Central	BSMMU Unit.
+34, Tinshed Building, Out Door, BSMMU, Shahbag, Dhaka
+Tel:8621658\n\n
+Sandhani National Eye 
+Donation Society	Dhaka Medical College Hospital, Dhaka
+Tel: 8614040\n\n
+Sandhani, Dhaka Dental College	Dhaka,
+Tel: 9665140\n\n
+Sandhani, Dhaka Medical College	Bakshi Bazar Dhaka,
+Tel: 9668690
+    </string>
+    <string name="title_activity_bloodbank">bloodbank</string>
+    <string name="title_activity_settings_page">settings_page</string>
+    <string name="title_activity_comment_incident">comment_incident</string>
+    <string name="title_activity_comment_incidentmine">comment_incidentmine</string>
+    <string name="title_activity_comment_notice">comment_notice</string>
+    <string name="title_activity_comment_noticemine">comment_noticemine</string>
+    <string name="title_activity_emergency_phone_numbers">emergencyPhoneNumbers</string>
+    <string name="title_activity_floating">floating</string>
+
+</resources>
